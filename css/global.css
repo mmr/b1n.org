@@ -1,0 +1,38 @@
+/**
+ * @author Marcio Ribeiro (mmr)
+ * @version $Id: global.css,v 1.6 2006/02/18 07:05:48 mmr Exp $
+ */
+* {
+    font-family: verdana;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: middle;
+    border: none;
+}
+
+body {
+    text-align: center;
+    background-color: #ddf;
+}
+
+a {
+    vertical-align: baseline;
+}
+
+a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #03c;
+}
+
+a:active, a:hover {
+    color: #05f;
+}
+
+p {
+    padding: 1em;
+}

@@ -1,0 +1,158 @@
+/**
+ * @author Marcio Ribeiro (mmr)
+ * @version $Id: custom.css,v 1.8 2006/02/27 16:54:33 mmr Exp $
+ */
+
+/* Main */
+#main {
+    border: 1px outset GhostWhite;
+    margin: 0 auto;
+    width: 850px;
+    padding: 20px;
+    background-color: #55a;
+}
+
+#header {
+    padding: 10px 0;
+}
+
+#header h1 {
+    color: #fff;
+    background-color: #77b;
+    padding: 5px;
+}
+
+/* Table Of Contents */
+#toc {
+    text-align: left;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+#tocWork, #tocHobby {
+    border: 1px outset GhostWhite;
+    background-color: #ddd;
+    padding: 15px 0 0 15px;
+    height: 100%;
+}
+
+#tocWork {
+    float: left;
+    width: 40%;
+}
+
+#tocHobby {
+    margin-left: 43%;
+}
+
+
+#tocWork table, #tocHobby table {
+    width: 100%;
+}
+
+#tocWork table tr td, #tocHobby table tr td {
+    padding-right: 10px;
+}
+
+/* Title */
+.title {
+    padding: 20px 0 10px 0;
+}
+
+.title small {
+    font-style: italic;
+    font-size: xx-small;
+}
+
+#work .title h2, #hobby .title h2 {
+    color: #fff;
+    background-color: #77b;
+    padding: 5px;
+}
+
+/* Project */
+.project {
+    border: 1px outset GhostWhite;
+    background-color: #ddd;
+    text-align: left;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.project .desc {
+    text-indent: 30px;
+    text-align: justify; 
+}
+
+.project .desc:first-letter {
+    font-size: x-large;
+}
+
+/* Project : Technologies */
+.project .technologies {
+    border: 1px dotted #000;
+    background-color: #ddb;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.project .technologies ul {
+    padding-left: 25px;
+}
+
+.project .technologies ul li {
+    list-style: circle;
+}
+
+/* Project : Status */
+.project .status {
+    margin-top: 10px;
+}
+
+.project .status .statusLabel {
+    font-weight: bold;
+}
+
+.project .status .statusName {
+    font-weight: normal;
+    display: inline;
+}
+
+/* Footer */
+#footer {
+    padding: 10px 0;
+}
+
+#footer h2 {
+    color: #fff;
+    background-color: #77b;
+    padding: 5px;
+}
+
+#footer #files {
+    border: 1px solid #000;
+    background-color: #ddd;
+    text-align: left;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+#footer ul {
+    padding-left: 25px;
+}
+
+#footer ul li {
+    list-style: circle;
+}
+
+/* Misc */
+.topLink {
+    text-align: right;
+}
+
+#copyright {
+    border: 1px solid #000;
+    background-color: #ddd;
+    font-style: italic;
+    font-size: xx-small;
+}
