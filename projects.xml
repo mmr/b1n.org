@@ -1,0 +1,843 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='projects.xsl'?>
+<!--
+/**
+ * @author Marcio Ribeiro <mribeiro (a) gmail com>
+ * @created 2005-10-15
+ * @version $Id: projects.xml,v 1.13 2006/07/07 12:39:14 mmr Exp $
+ */
+-->
+<projects
+    author='Marcio Ribeiro'
+    xmlns='http://b1n.org'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:schemaLocation='http://b1n.org projects.xsd'>
+
+    <workProjects
+        title='Projetos Profissionais'
+        subtitle='"Sucesso só vem antes de Trabalho no dicionário." (Vince Lombardi)'>
+        <project>
+            <name>ASA</name>
+            <desc>
+            ASA significa Aberium Security Advisor, não é bem um projeto, é mais um serviço prestado.
+            Semanalmente, eu escrevia resumos sucintos sobre as últimas falhas encontradas em aplicações e sistemas diversos.
+            As descrições das falhas eram retiradas de conceituados sites e listas sobre segurança.</desc>
+            <path>work/asa</path>
+        </project>
+
+        <project>
+            <name>Airgate</name>
+            <desc>
+            Ferramenta para controle de roteamento de redes wireless utilizando firewall ipf (IP Filter em FreeBSD) e VPN (Virtual Private Network) utilizando PPTP (Point to Point Tunelling Protocol) para clientes Windows.
+            </desc>
+            <path>work/airgate</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>PostgreSQL</technology>
+                <technology>IPF em FreeBSD</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Apyon</name>
+            <desc>
+            A Apyon/GSDNet, já possuia um sistema de controle (escrito em ASP/JScript) de clientes funcionando, porém, esse sistema possuía muito código em JavaScript escrito de forma bem pouco portável, não funcionando em muitos navegadores (leia, diferente de Internet Explorer). Boa parte do código JavaScript foi reescrito, colocando detecções de browsers (IE 4/5/6, Netscape 4.7+, Mozilla, etc) e 'emulando' os efeitos desejados na medida do possível. Compatibilizando também os CSS's (Cascading Style Sheets) entre os navegadores.
+            </desc>
+            <technologies>
+                <technology>ASP (JScript)</technology>
+                <technology>DHTML (JavaScript e CSS)</technology>
+                <technology>Microsoft SQL Server</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Busca PDF</name>
+            <desc>Sistema de pesquisa em conteudo de arquivos PDF indexados baseado no htdig.</desc>
+            <path>work/htdig</path>
+            <technologies>
+                <technology>C</technology>
+                <technology>Htdig</technology>
+                <technology>XPDF</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>CP Finasa</name>
+            <desc>Piloto para sistema de controle de cargas em cartão de crédito para a Certegy.</desc>
+            <path>work/cpf</path>
+            <technologies>
+                <technology>Java</technology>
+                <technology>Struts</technology>
+                <technology>EJB</technology>
+                <technology>Oracle</technology>
+                <technology>JBoss</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>KM</name>
+            <desc>Sistema de gestao de conhecimento (Knowledge Management) para Probank.</desc>
+            <path>work/km</path>
+            <technologies>
+                <technology>Java</technology>
+                <technology>JSF</technology>
+                <technology>Hibernate</technology>
+                <technology>PostgreSQL</technology>
+                <technology>JBoss</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>DocuShare</name>
+            <desc>Treinamento sobre o DocuShare, software de controle de conteudo e documentos eletronicos (GED / ECM - Enterprise Content Management) da Xerox.</desc>
+            <path>work/docushare</path>
+            <technologies>
+                <technology>Tomcat</technology>
+                <technology>Java</technology>
+                <technology>DocuShare</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Documentor</name>
+            <desc>Sistema que simula um cliente HTTP para automatizar tarefas de de geracao de documentacao em formato PDF atraves do Wiki (TWiki).</desc>
+            <path>work/documentor</path>
+            <technologies>
+                <technology>Java</technology>
+                <technology>HttpClient</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>E-Nós2</name>
+            <desc>
+            Desenvolvimento e manutenção do site de relacionamento E-NÓS2, constando de content management (Controle de Conteúdo), fóruns, enquetes e afins.
+            </desc>
+            <path>work/enos2</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>Perl</technology>
+                <technology>MySQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>EuToFacinho</name>
+            <desc>
+            O EuToFacinho (formado pela parceria Enos2+Trip+TPM) é um site de relacionamento onde as pessoas (que 'estão facinho') se cadastram (enviando suas fotos), esperando que os visitantes os correspondam via email, dessa forma aumentando seu número de 'cantadas'.
+            </desc>
+            <path>work/eutofacinho</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>MySQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>ExtracaoPDF</name>
+            <desc>
+            Sistema que cria uma versão PDF de cada uma das páginas da Folha de S.Paulo, edições São Paulo e Nacional.
+            </desc>
+            <path>work/extracaopdf</path>
+            <technologies>
+                <technology>Perl</technology>
+                <technology>Distiller</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>FGV</name>
+            <desc>
+            Sistema de gerenciamento desenvolvido para a Empresa Júnior da Faculdade/Fundação Getúlio Vargas.
+            Consta de controle de permissões, envio/recepção de tasks entre usuários, módulo de Consultoria, Eventos, TimeSheet, Etiquetagem, Backup, Avisos Automáticos (Crontab), entre outros.
+            </desc>
+            <path>work/fgv</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>Perl</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Flywatch</name>
+            <desc>Sistema de controle de vôos executivos.</desc>
+            <path>work/flywatch</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>FPDF</technology>
+                <technology>Perl</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>FolhaWiki</name>
+            <desc>
+            Implantação de sistema de base de conhecimento (knowledge base) para a tecnologia da Folha de S.Paulo. 
+            </desc>
+            <path>work/extracaopdf</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>MySQL</technology>
+                <technology>MediaWiki</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Importer</name>
+            <desc>
+            Importador de documentos em formato SGML/XML (Dublin Core) para banco de dados SQL Server.
+            </desc>
+            <path>work/importer</path>
+            <technologies>
+                <technology>Perl</technology>
+                <technology>Microsoft SQL Server</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>GPM</name>
+            <desc>GPM (Gerencia de Produtos e Materiais) é um sistema de controle de processos. Com diversos módulos, como de Produção e Logística que cuidam das etapas para fabricação real de produtos e toda parte de logística física de recebimento e envio de materiais e produtos.</desc>
+            <path>work/gpm</path>
+            <technologies>
+                <technology>Java</technology>
+                <technology>Groovy</technology>
+                <technology>Struts</technology>
+                <technology>Hibernate</technology>
+                <technology>Velocity</technology>
+                <technology>Oracle iAS</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>GVI</name>
+            <desc>Montagem e documentação de servidores de paginas e nomes com .</desc>
+            <path>work/gvi</path>
+            <technologies>
+                <technology>LaTeX</technology>
+                <technology>Perl</technology>
+                <technology>FreeBSD</technology>
+                <technology>BIND</technology>
+                <technology>Apache</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>iBest</name>
+            <desc>Piloto de CMS para o iBest.</desc>
+            <path>work/ibest</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>LDAP</name>
+            <desc>Unificacao de autenticacao de usuarios de diversos servicos - Email, servidor de arquivos, proxy, rede - em LDAP.</desc>
+            <path>work/htdig</path>
+            <technologies>
+                <technology>FreeBSD</technology>
+                <technology>OpenLDAP</technology>
+                <technology>Samba</technology>
+                <technology>Squid</technology>
+                <technology>Postfix</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Ombudsman</name>
+            <desc>
+            Sistema que cria um arquivo PDF, com todas as páginas, na ordem correta, da edição São Paulo da Folha de S.Paulo e o envia para o Ombudsman no Rio de Janeiro.
+            </desc>
+            <path>work/ombudsman</path>
+            <technologies>
+                <technology>Perl</technology>
+                <technology>Distiller</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>SantaCruz</name>
+            <desc>
+            Desenvolvimento de solução de Webmail utilizando POP3 para o Colégio SantaCruz.
+            </desc>
+            <technologies>
+                <technology>C</technology>
+                <technology>qmail</technology>
+                <technology>solid POP3</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>SCVP</name>
+            <desc>Sistema CaboVerde de Publicação. Sistema de controle de conteúdo para publicação digital de revistas de pesquisa científica.</desc>
+            <path>work/scvp</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>Perl</technology>
+                <technology>Microsoft SQL Server</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>ShockNet</name>
+            <desc>
+            Desenvolvimento de ferramenta para controle contábil da GameHouse ShockNet. Contabilizando horas jogadas dos usuários e consumo de produtos.
+
+            A autenticação dos usuários é feita através do Samba em servidor Linux.
+            Após logado em alguma das máquinas windows (onde os usuários jogam), um programa cliente (escrito em Delphi) é acionado, e começa a enviar pacotes de X em X segundos (tempo configurável) para um programa servidor (escrito em C) na máquina Linux. Se o servidor Linux não receber pacotes durante do tempo máximo previsto (TimeOut) significa que o usuário deslogou. O programa calcula o intervalo de tempo que o usuário ficou jogando (com suporte a tolerância), soma o custo desse tempo ao de produtos consumidos (chocolate, refrigerante, etc) e mostra na interface web front-end (escrita em PHP) para o administrador dar baixa.
+            </desc>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>C</technology>
+                <technology>Delphi</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>SindicoNet</name>
+            <desc>
+            Desenvolvimento de ferramenta para controle de conteúdo e cotações para compra de produtos online.
+            </desc>
+            <technologies>
+                <technology>ASP (VBScript)</technology>
+                <technology>Microsoft SQL Server</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>SuperBid 1</name>
+            <desc>
+            Desenvolvimento de solução para controle de usuários e contas de Email.
+            </desc>
+            <technologies>
+                <technology>C</technology>
+                <technology>Perl</technology>
+                <technology>vpopmail</technology>
+                <technology>qmail</technology>
+                <technology>qmailadmin</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>SuperBid 2</name>
+            <desc>
+            Desenvolvimento de sistema de Streaming de áudio para leilão em tempo real.
+            </desc>
+            <technologies>
+                <technology>C</technology>
+                <technology>Perl</technology>
+                <technology>ShoutCast</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Tosto</name>
+            <desc>Advocacia Leite Tosto</desc>
+            <path>work/tosto</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>TPM</name>
+            <desc>Sistema de controle de conteúdo para o portal da Revista Trip Para Mulheres.</desc>
+            <path>work/tpm</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>MySQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Viagens</name>
+            <desc>Sistema de Reserva de Viagens para C&amp;A Modas</desc>
+            <path>work/viagens</path>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>MySQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>VisuProd</name>
+            <desc>
+            Implantação/manutenção do software de aprovação de pré-impressão SoftData (SD) VisuProd para Folha de S.Paulo.
+            </desc>
+            <path>work/visuprod</path>
+            <technologies>
+                <technology>SD VisuProd</technology>
+                <technology>Microsoft SQL Server</technology>
+            </technologies>
+        </project>
+    </workProjects>
+
+    <hobbyProjects
+        title='Projetos Pessoais'
+        subtitle='Use bem seu tempo livre! Durma...'>
+
+        <project>
+            <name>AsmBot</name>
+            <desc>
+            IRC (Internet Relay Chat) Bot escrito em Assembly (i386 32 bits AT&amp;T Syntax).
+            </desc>
+            <status>1</status>
+            <path>hobby/asmbot</path>
+            <technologies>
+                <technology>Assembly</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>b1n</name>
+            <desc>
+            O site onde você está nesse momento, provavelmente.
+            </desc>
+            <status>1</status>
+            <technologies>
+                <technology>XML</technology>
+                <technology>XSD</technology>
+                <technology>XSLT</technology>
+                <technology>PHP</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Bones</name>
+            <desc>
+            Jogo de domino.
+            </desc>
+            <status>2</status>
+            <path>hobby/bones</path>
+            <technologies>
+                <technology>Java</technology>
+                <technology>JSF</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>CBot</name>
+            <desc>
+            IRC (Internet Relay Chat) Bot escrito em C usando técnicas de POO (Programação Orientada a Objetos).
+            </desc>
+            <status>1</status>
+            <path>hobby/cbot</path>
+            <technologies>
+                <technology>C</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>CheaterBot</name>
+            <desc>
+            Mini framework de Rôbo (extensão de java.awt.Robot) para 'roubar' em jogos e afins usando recursos de macro.
+            </desc>
+            <path>hobby/CheaterBot</path>
+            <status>1</status>
+            <technologies>
+                <technology>Java</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>CheckConnection</name>
+            <desc>
+            Automatiza processo de reconexão PPPoE caso conexão seja perdida, com recurso de logging e tratamento de concorrência simples.  
+            </desc>
+            <path>hobby/checkConnection</path>
+            <status>1</status>
+            <technologies>
+                <technology>Shell Script</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Cube</name>
+            <desc>
+            Mostra um cubo translúcido rotacionando na tela (com um cubo sólido inscrito nele).
+            </desc>
+            <path>hobby/cube</path>
+            <status>1</status>
+            <technologies>
+                <technology>C</technology>
+                <technology>Glut</technology>
+                <technology>OpenGL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Cv</name>
+            <desc>
+            Curriculum Vitae com conteúdo unificado em XML (validado por um XSD) e transformado em muitos formatos (LaTeX, PDF, PS, DVI, XHTML, ...) usando XSLT.
+            </desc>
+            <path>hobby/cv</path>
+            <status>1</status>
+            <technologies>
+                <technology>XML</technology>
+                <technology>XSD</technology>
+                <technology>XSLT</technology>
+                <technology>LaTeX</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>DHTML Tester</name>
+            <desc>
+            DHTML Filter FX Tester é um testador de efeitos CSS2 do Internet Explorer (Filter:...).
+            Atenção: utiliza frames e recursos somente disponíveis no IE.
+            </desc>
+            <path>hobby/dhtml</path>
+            <status>1</status>
+            <technologies>
+                <technology>DHTML (JavaScript, CSS)</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Err</name>
+            <desc>
+            CGI (Common Gateway Interface) para tratamento de erros do protocolo HTTP.
+            </desc>
+            <path>hobby/err</path>
+            <status>1</status>
+            <technologies>
+                <technology>C</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>FlipFlop</name>
+            <desc>Plugin para o Eclipse que alterna entre configurações para um arquivo.</desc>
+            <status>1</status>
+            <path>hobby/FlipFlop</path>
+            <technologies>
+                <technology>Java</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Game of Life</name>
+            <desc>
+            Implementação do clássico Game of Life.
+            </desc>
+            <path>hobby/life</path>
+            <status>1</status>
+            <technologies>
+                <technology>C</technology>
+                <technology>Glut</technology>
+                <technology>OpenGL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Hanoi</name>
+            <desc>
+            Implementação do jogo Torres de Hanoi.
+            </desc>
+            <path>hobby/hanoi</path>
+            <status>2</status>
+            <technologies>
+                <technology>C</technology>
+                <technology>Glut</technology>
+                <technology>OpenGL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>IKnow</name>
+            <desc>
+            Esse programa *finge* inteligência artificial, fazendo o computador responder a perguntas digitadas pelo usuário.
+
+            'The mind is quicker than the eye...'
+            </desc>
+            <path>hobby/iknow</path>
+            <status>1</status>
+            <technologies>
+                <technology>C</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Imaginator</name>
+            <desc>
+            Script que cria imagem com texto totalmente customizável para evitar cadastros feitos por 'robôs' (auto-signups + OCR).
+            </desc>
+            <path>hobby/imaginator</path>
+            <status>1</status>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>GD</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>JS Spring</name>
+            <desc>
+            Muitos e muitos sites por aí usam esse JavaScript de mola, eu o peguei, modifiquei um tanto o código e fiz uma interface para testes de suas propriedades físicas, ficou bem legal :)
+            </desc>
+            <path>hobby/spring</path>
+            <status>1</status>
+            <technologies>
+                <technology>JavaScript</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>MPG</name>
+            <desc>
+            Melissa's Photo Gallery é uma galeria de fotos simples, dedicado à minha filha, Melissa.
+            </desc>
+            <path>hobby/mel</path>
+            <status>1</status>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>GD</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Mine</name>
+            <desc>
+            Implementação do jogo Campo Minado (Mine Sweeper).
+            </desc>
+            <path>hobby/mine</path>
+            <status>2</status>
+            <technologies>
+                <technology>C</technology>
+                <technology>XLib</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>OCR</name>
+            <desc>
+            Conecta à servidor HTTP, faz a requisição da imagem e tenta convertê-la para texto. 
+            </desc>
+            <path>hobby/ocr</path>
+            <status>2</status>
+            <technologies>
+                <technology>C</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>PasteB1N 1</name>
+            <desc>
+            Sistema para colar trechos de código com suporte a iluminação de sintaxe em diversas linguagens diferentes.
+            </desc>
+            <path>hobby/paste</path>
+            <status>1</status>
+            <technologies>
+                <technology>RewriteEngine (Apache)</technology>
+                <technology>PHP</technology>
+                <technology>MySQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>PasteB1N 2</name>
+            <desc>
+            Sistema para colar trechos de código com suporte a iluminação de sintaxe em diversas linguagens diferentes.
+            </desc>
+            <path>hobby/paste2</path>
+            <status>1</status>
+            <technologies>
+                <technology>RewriteEngine (Apache)</technology>
+                <technology>PHP</technology>
+                <technology>PostgreSQL</technology>
+                <technology>GeSHi</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>PFG</name>
+            <desc>
+            O PFG, acrônimo de Packet Flood Generator, usa Raw Sockets pra poder manipular livremente o cabeçalho dos pacotes, permitindo ao usuário de enviar (o quanto a banda suportar) pacotes (TCP, UDP ou ICMP) com o endereço de origem modificado.
+            </desc>
+            <path>hobby/pfg</path>
+            <status>2</status>
+            <technologies>
+                <technology>C</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>PHPBot 1</name>
+            <desc>
+            IRC Bot escrito em PHP (PHP 4) usando técnicas de POO.
+            </desc>
+            <path>hobby/phpbot</path>
+            <status>1</status>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>MySQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>PHPBot 2</name>
+            <desc>
+            IRC Bot escrito em PHP (PHP 5) usando técnicas de POO.
+            </desc>
+            <path>hobby/phpbot2</path>
+            <status>1</status>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>SQLite</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>PHPBot 3</name>
+            <desc>
+            IRC Bot escrito em PHP (PHP 5) usando técnicas de POO e Padrões de Projeto.
+            </desc>
+            <path>hobby/phpbot3</path>
+            <status>3</status>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>SQLite</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>RunescapeCheater</name>
+            <desc>
+            Robô escrito para 'roubar' no MMORPG Runescape.
+            </desc>
+            <path>hobby/RunescapeCheater</path>
+            <status>1</status>
+            <technologies>
+                <technology>Java</technology>
+                <technology>CheaterBot</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>ScrollBar Race</name>
+            <desc>
+            Isso mesmo, uma corrida de Barras de Rolagem.
+
+            Assim assim como o JS Spring, o código não é todo meu, peguei o código e fiz adaptações.
+            </desc>
+            <path>hobby/sr</path>
+            <status>1</status>
+            <technologies>
+                <technology>JavaScript</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Sena</name>
+            <desc>
+            Verifica assiduidade de números nos sorteios da Mega-Sena.
+            </desc>
+            <path>hobby/sena</path>
+            <status>1</status>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>Perl</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Service</name>
+            <desc>
+            Backend para execução remota de comandos em servidor UNIX.
+            </desc>
+            <path>hobby/service</path>
+            <status>1</status>
+            <technologies>
+                <technology>C</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>SimulaUrna</name>
+            <desc>
+            Applet que Simula Urna Eletrônica.
+            Adaptado do código de Urna da Receita Federal.
+            </desc>
+            <status>1</status>
+            <path>hobby/FlipFlop</path>
+            <technologies>
+                <technology>Java</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>TimeCheater</name>
+            <desc>
+            Robô escrito para 'roubar' no TimeSheet da Zera.
+            </desc>
+            <path>hobby/TimeCheater</path>
+            <status>1</status>
+            <technologies>
+                <technology>Java</technology>
+                <technology>CheaterBot</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Typer</name>
+            <desc>
+            Simula um usuário digitando frases passadas à ele, com delays randômicos entre cada caracter e possibilidade de Erro.
+            </desc>
+            <path>hobby/typer</path>
+            <status>1</status>
+            <technologies>
+                <technology>C</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>URL 1</name>
+            <desc>
+            Sistema que cria redirecionador para URLs (como o http://tinyurl.com).
+            </desc>
+            <path>hobby/url</path>
+            <status>1</status>
+            <technologies>
+                <technology>RewriteEngine (Apache)</technology>
+                <technology>PHP</technology>
+                <technology>MySQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>URL 2</name>
+            <desc>
+            Sistema que cria redirecionador para URLs (como o http://tinyurl.com).
+            </desc>
+            <path>hobby/url</path>
+            <status>1</status>
+            <technologies>
+                <technology>RewriteEngine (Apache)</technology>
+                <technology>PHP</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+
+        <project>
+            <name>Vamp</name>
+            <desc>
+            RPG para a Internet baseado em Vampiros, pode-se vagar pela cidade sugando o sangue de outros vampiros (jogadores) ou NPCs, passando por construções diversas (como bancos, lojas, bares, etc), podendo comprar itens, aprender novos poderes e se tornar um vampiro mestre.
+            Não espere por gráficos estonteantes com OpenGL e afins, a interface é realmente bem simples, feita com HTML e poucas imagens.
+            </desc>
+            <path>hobby/vamp</path>
+            <status>1</status>
+            <technologies>
+                <technology>PHP</technology>
+                <technology>PostgreSQL</technology>
+            </technologies>
+        </project>
+    </hobbyProjects>
+</projects>

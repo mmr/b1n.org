@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!--
+/**
+ * @author Marcio Ribeiro <mribeiro (a) gmail com>
+ * @created 2005-10-15
+ * @version $Id: projects.xsd,v 1.3 2006/02/13 05:05:39 mmr Exp $
+ */
+-->
+<xsd:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+    xmlns:mmr='http://b1n.org'
+    xmlns='http://b1n.org'
+    targetNamespace='http://b1n.org'
+    elementFormDefault='qualified'>
+
+    <!-- Types -->
+    <xsd:simpleType name='string'>
+        <xsd:restriction base='xsd:string'>
+            <xsd:whiteSpace value='collapse'/>
+            <xsd:minLength value='1'/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- project -->
+    <xsd:element name='project'>
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name='name' type='mmr:string'/>
+                <xsd:element name='desc' type='mmr:string'/>
+                <xsd:element name='status' type='xsd:integer' minOccurs='0'/>
+                <xsd:element name='path' type='mmr:string' minOccurs='0'/>
+                <xsd:element name='technologies'>
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name='technology' type='mmr:string'
+                                minOccurs='1' maxOccurs='unbounded'>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <!-- workProjects -->
+    <xsd:element name='workProjects'>
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:attribute name='title' type='mmr:string' use='required'/>
+                <xsd:attribute name='subtitle' type='mmr:string'/>
+                <xsd:element ref='project' maxOccurs='unbounded'/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <!-- hobbyProjects -->
+    <xsd:element name='hobbyProjects'>
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref='project' maxOccurs='unbounded'/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <!-- Cv -->
+    <xsd:element name='projects'>
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref='workProjects'/>
+                <xsd:element ref='hobbyProjects'/>
+            </xsd:sequence>
+            <xsd:attribute name='author' type='mmr:string' use='required'/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
